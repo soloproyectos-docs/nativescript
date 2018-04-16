@@ -39,7 +39,7 @@ git commit -m 'first commit'
 
 ## Running and debugging applications
 
-Install an Android emulator (for example [Genymotion](https://www.genymotion.com/)) and execute any of the following commands:
+Install an Android emulator (for example [Genymotion](https://www.genymotion.com/)), start an emulator and execute any of the following commands:
 ```bash
 # run the application in the emulator
 tns run <app-name> <android|ios|etc>
