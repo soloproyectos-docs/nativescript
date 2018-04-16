@@ -1,6 +1,6 @@
 # NativeScript
 
-## Create a Angular+NativeScript application
+## Create a Angular + NativeScript application
 ```bash
 # create an Angular project and change to the app folder
 tns create <app-name> --ng
