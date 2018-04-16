@@ -1,39 +1,50 @@
 # NativeScript
 
-## Create a Angular + NativeScript application
+## Create an Angular + NativeScript project
 ```bash
 # create an Angular project and change to the app folder
 tns create <app-name> --ng
 cd <app-name>
 ```
 
-## Running and debugging applications
+## Install SASS
+Copy the following SASS rules to the application's folder:  
+https://github.com/soloproyectos-docs/nativescript/blob/master/.sass-lint.yml
 
-Install an Android emulator (for example, [Genymotion](https://www.genymotion.com/)) and execute any of the following commands:
+Install SASS:
 ```bash
-# run an application in the emulator
-tns run <app-name> <android|ios|etc>
-
-# debug an application in the emulator
-rns debug <app-name> <android|ios|etc>
+tns install sass
 ```
 
-## Git integration
-Add a `.gitignore` file to the Application's root folder and initialize the repository:  
-https://github.com/NativeScript/sample-Groceries/blob/master/.gitignore
+## Install Linter for TypeScript
+Copy the following Linter rules to the application's folder:  
+https://github.com/soloproyectos-docs/nativescript/blob/master/tslint.json
 
+Install Linter:
+```bash
+npm install codelyzer
+npm install tslint
+```
+
+## Initiate a GIT repository:
+Copy the following gitignore file to the applications's folder:  
+https://github.com/soloproyectos-docs/nativescript/blob/master/.gitignore
+
+Create the repository and commit:
 ```bash
 git init
 git add .
 git commit -m 'first commit'
 ```
-## Linter integration
 
-Install [Codelyzer](https://github.com/mgechev/codelyzer)
+## Running and debugging applications
+
+Install an Android emulator (for example [Genymotion](https://www.genymotion.com/)) and execute any of the following commands:
 ```bash
-npm install codelyzer
-typings install
+# run the application in the emulator
+tns run <app-name> <android|ios|etc>
+
+# debug the application in the emulator
+rns debug <app-name> <android|ios|etc>
 ```
 
-and create a `tslint.json` file in the root folder:  
-https://github.com/soloproyectos-docs/nativescript/blob/master/tslint.json
