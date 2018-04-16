@@ -1,6 +1,6 @@
 # NativeScript
-NativeScript documentation.
 
+## Create a Angular+NativeScript application
 ```bash
 # create an Angular project and change to the app folder
 tns create <app-name> --ng
@@ -16,4 +16,14 @@ tns run <app-name> <android|ios|etc>
 
 # debug an application in the emulator
 rns debug <app-name> <android|ios|etc>
+```
+
+## Git integration
+Add a `.gitignore` file to the Application's root folder and initialize the repository:  
+https://github.com/NativeScript/sample-Groceries/blob/master/.gitignore
+
+```bash
+git init
+git add .
+git commit -m 'first commit'
 ```
