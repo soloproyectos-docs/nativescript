@@ -27,3 +27,11 @@ git init
 git add .
 git commit -m 'first commit'
 ```
+## Linter integration
+
+Install [https://github.com/mgechev/codelyzer](Codelyzer)
+```bash
+npm install codelyzer
+```
+
+and create a `tslint.json` file in the root folder:
