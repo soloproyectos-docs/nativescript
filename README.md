@@ -29,9 +29,11 @@ git commit -m 'first commit'
 ```
 ## Linter integration
 
-Install [https://github.com/mgechev/codelyzer](Codelyzer)
+Install [Codelyzer](https://github.com/mgechev/codelyzer)
 ```bash
 npm install codelyzer
+typings install
 ```
 
-and create a `tslint.json` file in the root folder:
+and create a `tslint.json` file in the root folder:  
+https://github.com/soloproyectos-docs/nativescript/blob/master/tslint.json
